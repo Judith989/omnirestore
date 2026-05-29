@@ -141,7 +141,7 @@ OmniRestore/
 
 ## Dataset Preparation
 
-Please prepare or symlink the CDD-11 dataset as follows:
+Please prepare the CDD-11 dataset as follows:
 
 ```text
 data/
@@ -231,33 +231,6 @@ Depending on your local configuration, run `--stage 1` to extract embeddings and
 
 ---
 
-## Recommended Images for This Repository
-
-Place the following images in `assets/`:
-
-```text
-assets/
-├── teaser.png
-├── framework.png
-├── qualitative.png
-├── poster.png
-├── tsne.png
-├── confusion_matrix.png
-└── latency.png
-```
-
-Suggested use:
-
-* `teaser.png`: short visual summary at the top of the README.
-* `framework.png`: OmniRestore architecture.
-* `qualitative.png`: full restoration comparison grid.
-* `poster.png`: CVPR workshop poster.
-* `tsne.png`: ResNet18 semantic embedding clustering.
-* `confusion_matrix.png`: weather classification result.
-* `latency.png`: efficiency or latency comparison.
-
----
-
 ## Citation
 
 If you find this work useful, please cite:
@@ -280,6 +253,5 @@ If you find this work useful, please cite:
 For questions, please contact:
 
 **Judith N. Njoku**
-University of Wyoming
 Website: https://www.judithnnjoku.me
 LinkedIn: https://www.linkedin.com/in/judith989/
